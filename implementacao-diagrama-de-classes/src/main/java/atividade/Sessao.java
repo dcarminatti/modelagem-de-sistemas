@@ -32,7 +32,7 @@ public class Sessao {
     }
 
     public void exibirSessao() {
-        System.out.println("Sessão:");
+        System.out.println("\nSessão:");
         System.out.println("Data: " + this.dataSessao);
         System.out.println("Hora: " + this.horaSessao);
         System.out.println("Estado: " + this.estadoSessao);

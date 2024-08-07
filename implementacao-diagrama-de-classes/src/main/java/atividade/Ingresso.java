@@ -21,6 +21,17 @@ public class Ingresso {
         this.setTipoIngresso(tipoIngresso);
     }
 
+
+
+    public void imprimirIngresso() {
+        System.out.println("\nIngresso:");
+        System.out.println("Número do ingresso: " + this.numeroIngresso);
+        System.out.println("Assento: " + this.assentoIngresso);
+        System.out.println("Tipo: " + this.tipoIngresso);
+        System.out.println("Valor: " + this.valorIngresso);
+        System.out.println("Data da compra: " + this.dataCompra);
+    }
+
     public Integer getNumeroIngresso() {
         return numeroIngresso;
     }
